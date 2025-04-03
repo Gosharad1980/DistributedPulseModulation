@@ -516,10 +516,10 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "DistributedPulseModulation_gerber",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "DistributedPulseModulation.step",
       "svg": "",
       "vrml": ""
     },
@@ -655,7 +655,7 @@
     ],
     [
       "b8008be6-a928-47ca-87bc-1bacc7896b47",
-      "Untitled Sheet"
+      "Bus de fond panier"
     ]
   ],
   "text_variables": {}
