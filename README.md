@@ -22,13 +22,13 @@ Permet de faire :
 
 ### PWM
 
-- ne pas monter les ADG333A
+- ne pas monter les CD74HCT4053
 - positionner les jumpers comme dans le schéma (PWM/DDPM) sérigraphié sur le PCB
 ![P82C150_PWM](./img/P82C150_PWM.png)
 
 ### DPM
 
-- ne pas monter les ADG333A
+- ne pas monter les CD74HCT4053
 - positionner les jumpers comme dans le schéma (DPM) sérigraphié sur le PCB
 ![P82C150_DPM](./img/P82C150_DPM.png)
 
