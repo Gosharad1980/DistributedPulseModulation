@@ -482,7 +482,7 @@
 			(uuid "daa2c50c-7709-48f3-85c9-5f3ef35fed05")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/packages3D/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -845,7 +845,7 @@
 			(uuid "2c1f8f3a-a8aa-4790-b7a8-d0e8cdf27456")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x05_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x05_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1109,7 +1109,7 @@
 			(uuid "5fa9c97b-e9c1-4811-a213-ea04cd3db23c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/packages3D/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1174,7 +1174,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1364,7 +1364,7 @@
 			(uuid "00292117-b7aa-4666-9cd5-bba835b5f6c4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1430,7 +1430,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DPM/PWM(+!)"
+		(property "Var" "FEATURE FULL,DPM,PWM(+!)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1447,7 +1447,7 @@
 		(path "/0474c614-f924-447a-8221-86a9dfb513fd")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 6.46 19.11)
 			(end 6.46 -1.33)
@@ -1781,18 +1781,7 @@
 			(uuid "8e9b4cf3-9c01-4dde-8d30-220460a69059")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -1801,6 +1790,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2209,18 +2209,7 @@
 			(uuid "2fb39f40-9290-4d62-9f2e-a9cf32a1d8da")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -2229,6 +2218,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -2881,7 +2881,7 @@
 			(uuid "950912bf-39b5-4834-bcb0-9061eb7ba5a3")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3488,18 +3488,7 @@
 			(uuid "486d0eab-46a7-42d7-9b8a-9976eb5ac81b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -3508,6 +3497,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -3564,7 +3564,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DPM/PWM(+!)"
+		(property "Var" "FEATURE FULL,DPM,PWM(+!)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3581,7 +3581,7 @@
 		(path "/7c372ace-9716-4530-acf4-4868f22e2fd5")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -0.12 1.37)
 			(end 5.12 1.37)
@@ -3754,7 +3754,7 @@
 			(uuid "6089a7fa-ab76-441e-8749-df00206716d7")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3956,7 +3956,7 @@
 			(uuid "907c9029-bc32-4c6e-8d2e-fb1a9f829c79")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4022,7 +4022,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4373,18 +4373,7 @@
 			(uuid "ba96a9a5-2837-41eb-b787-ed3e7873e0b9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -4393,6 +4382,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -4584,7 +4584,7 @@
 			(uuid "1c605cf6-c447-46f3-a065-7eac90a35593")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Fuse.3dshapes/Fuse_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/Fuse_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4650,7 +4650,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5001,18 +5001,7 @@
 			(uuid "ebe5188b-9bc8-431b-b7c4-3ecae4748c1f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -5021,6 +5010,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -5419,7 +5419,7 @@
 			(uuid "ffddb81f-fa65-49ba-8cee-bbab87e5fa20")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x07_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x07_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5836,18 +5836,7 @@
 			(uuid "582afe5c-d019-49f8-9c45-b3603d0278bf")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -5856,6 +5845,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6383,18 +6383,7 @@
 			(uuid "58fd7509-6b50-4fbb-b0d9-91492269f064")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-28_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-28_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -6403,6 +6392,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-28_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6460,7 +6460,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6811,18 +6811,7 @@
 			(uuid "fcb08e73-704a-4d53-86f3-d11021d31587")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -6831,6 +6820,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -6887,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DPM/PWM(+!)"
+		(property "Var" "FEATURE FULL,DPM,PWM(+!)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6904,7 +6904,7 @@
 		(path "/c135f3b4-e8d5-470d-85b5-283ca6501046")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 5.12 -1.37)
 			(end 5.12 -1.033)
@@ -7077,7 +7077,7 @@
 			(uuid "48e93afd-6efa-4f3b-be7f-b0d87abf2889")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7343,7 +7343,7 @@
 			(uuid "2d9bad3d-2acf-4ba6-bcaf-4ee64ab0ebc9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7607,7 +7607,7 @@
 			(uuid "3b2be197-912b-4d8d-9149-8903950b97bd")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-223.wrl"
+		(model "${KIPRJMOD}/packages3D/SOT-223.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7672,7 +7672,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7862,7 +7862,7 @@
 			(uuid "b61702e3-8c07-466f-909b-7437a2444e7d")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8117,7 +8117,7 @@
 			(uuid "5e339157-3f29-438b-9811-cb38d4f481b5")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x02_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8317,7 +8317,7 @@
 			(uuid "e36f9ebb-e7a8-495d-8239-176633fb9de9")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/R_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8964,7 +8964,7 @@
 			(uuid "4d064fe5-924a-4a02-9614-87a95382857c")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_IDC.3dshapes/IDC-Header_2x07_P2.54mm_Horizontal.wrl"
+		(model "${KIPRJMOD}/packages3D/IDC-Header_2x07_P2.54mm_Horizontal.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9030,7 +9030,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DPM/PWM(+!)"
+		(property "Var" "FEATURE FULL,DPM,PWM(+!)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9047,7 +9047,7 @@
 		(path "/e3f1ee0b-9bf5-4729-bf31-a610148221f6")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 6.46 19.11)
 			(end 6.46 -1.33)
@@ -9381,18 +9381,7 @@
 			(uuid "967f6702-d677-4005-b5c7-0230bf95e38e")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -9401,6 +9390,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9458,7 +9458,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9809,18 +9809,7 @@
 			(uuid "4b11554d-5516-47f3-b10d-728b6ba2e43b")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -9829,6 +9818,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -9885,7 +9885,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10075,7 +10075,7 @@
 			(uuid "0c1d426f-fd87-4fb1-b0dc-722f3a627c8f")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10317,7 +10317,7 @@
 			(uuid "9cdcc157-ac59-4518-b1d8-b958c75607ef")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10379,6 +10379,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Var" "FEATURE FULL(+m1) DDPM,DPM(+m2) PWM(+m3)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "75aad514-5ccf-43f3-a1d9-56ab8dc9cc35")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10834,7 +10847,31 @@
 			(uuid "dc94f98f-60a2-4fcb-9a85-5eafe7650af4")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x12_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x12_P2.54mm_Vertical_jumpered_cross.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x12_P2.54mm_Vertical_jumpered_lin.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x12_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11303,7 +11340,7 @@
 			(uuid "c7e196e4-bc63-4896-9a7d-981e6e29c9f1")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11525,7 +11562,7 @@
 			(uuid "67a44036-fdb5-4043-8c11-c1426d52ad21")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/LED_SMD.3dshapes/LED_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/LED_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11767,7 +11804,7 @@
 			(uuid "b7539c82-2c7c-4394-ab24-a9b77a770bc6")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12022,7 +12059,7 @@
 			(uuid "7916a1a1-c47b-43bd-9495-ab8229d2bedb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12224,7 +12261,7 @@
 			(uuid "fc65d03e-848b-4e10-af32-f105b7ca7514")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
+		(model "${KIPRJMOD}/packages3D/C_1206_3216Metric.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12290,7 +12327,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DPM/PWM(+!)"
+		(property "Var" "FEATURE FULL,DPM,PWM(+!)"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12307,7 +12344,7 @@
 		(path "/a3f0df11-eace-487e-bc2f-802078513caf")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 6.46 19.11)
 			(end 6.46 -1.33)
@@ -12641,18 +12678,7 @@
 			(uuid "7b8c5e18-d754-4406-942d-bc41378d6e22")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm_Socket.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-		(model "${KICAD9_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-16_W7.62mm.wrl"
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm.wrl"
 			(offset
 				(xyz 0 0 4)
 			)
@@ -12661,6 +12687,17 @@
 			)
 			(rotate
 				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KIPRJMOD}/packages3D/DIP-16_W7.62mm_Socket.wrl"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
 			)
 		)
 	)
@@ -12717,7 +12754,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DDPM(+!)"
+		(property "Var" "FEATURE FULL,DDPM(+!)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12907,7 +12944,7 @@
 			(uuid "832d0e23-fae1-4d0b-83cc-947e7a487b48")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13402,7 +13439,7 @@
 			(uuid "e53ca1ff-276e-4481-b3e8-12c7298b51bb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_2x11_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_2x11_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13668,7 +13705,7 @@
 			(uuid "11c5fe37-fc06-4057-8296-3ef121e33ddb")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x03_P2.54mm_Vertical.wrl"
+		(model "${KIPRJMOD}/packages3D/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13732,7 +13769,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE DPM/PWM(+!)"
+		(property "Var" "FEATURE FULL,DPM,PWM(+!)"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13749,7 +13786,7 @@
 		(path "/bb89e544-44dc-407d-9f09-a6643f62dec0")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start 5.12 -1.37)
 			(end 5.12 -1.033)
@@ -13922,7 +13959,7 @@
 			(uuid "2222dd11-fb62-42ea-b06d-adc2ae1096ea")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
+		(model "${KIPRJMOD}/packages3D/C_Disc_D5.0mm_W2.5mm_P5.00mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14411,7 +14448,7 @@
 			(uuid "318b585b-3607-442b-a708-ac56ae8f2762")
 		)
 		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_SO.3dshapes/SSOP-8_2.95x2.8mm_P0.65mm.wrl"
+		(model "${KIPRJMOD}/packages3D/SSOP-8_2.95x2.8mm_P0.65mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)

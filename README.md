@@ -29,17 +29,17 @@ Permet de faire :
 ### PWM
 
 * ne pas monter les CD74HCT4053
-* positionner les jumpers comme dans le schéma (PWM/DDPM) sérigraphié sur le PCB
+* positionner les jumpers comme dans le schéma (PWM) sérigraphié sur le PCB
 ![P82C150_PWM](./img/P82C150_PWM.png)
 
 ### DPM
 
 * ne pas monter les CD74HCT4053
-* positionner les jumpers comme dans le schéma (DPM) sérigraphié sur le PCB
+* positionner les jumpers comme dans le schéma (DPM/DDPM) sérigraphié sur le PCB
 ![P82C150_DPM](./img/P82C150_DPM.png)
 
 ### DDPM
 
 * ne pas monter les 74LS85
-* positionner les jumpers comme dans le schéma (PWM/DDPM) sérigraphié sur le PCB
+* positionner les jumpers comme dans le schéma (DPM/DDPM) sérigraphié sur le PCB
 ![Dyadic_Discret_Pulse_Modulation](./img/Dyadic_Discret_Pulse_Modulation.png)
