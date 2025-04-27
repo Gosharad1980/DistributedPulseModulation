@@ -26,10 +26,21 @@ On Distributed Pulse Modulation (DPM) and Dyadic Descrete Pulse Modulation (DDPM
 
 ## The breakout board
 
-Features :
-* PWM (Pulse Width Modulation)
-* DPM P82C150-like (Distributed Pulse Modulation)
-* DDPM (Dyadic Discrete Pulse Modulation)
+###  Features
+	PWM (Pulse Width Modulation)
+	DPM P82C150-like (Distributed Pulse Modulation)
+	DDPM (Dyadic Discrete Pulse Modulation)
+
+![photo_board](./img/photo_board.jpg)
+![photo_stack](./img/photo_stack.jpg)
+
+### MCP23017 Port A & B
+
+	MCP23017 is an I2C 16bits IO expander
+	Port A & B are used to control the board
+![Port A & B](./img/MCP23017_portA_B.jpg)
+
+## Board configurations
 
 ### PWM
 
