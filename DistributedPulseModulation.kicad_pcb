@@ -2106,7 +2106,7 @@
 		(path "/0474c614-f924-447a-8221-86a9dfb513fd")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 6.46 19.11)
 			(end 6.46 -1.33)
@@ -4405,7 +4405,7 @@
 		(path "/7c372ace-9716-4530-acf4-4868f22e2fd5")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -0.12 1.37)
 			(end 5.12 1.37)
@@ -7728,7 +7728,7 @@
 		(path "/c135f3b4-e8d5-470d-85b5-283ca6501046")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 5.12 -1.37)
 			(end 5.12 -1.033)
@@ -9687,7 +9687,7 @@
 		(path "/e3f1ee0b-9bf5-4729-bf31-a610148221f6")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 6.46 19.11)
 			(end 6.46 -1.33)
@@ -13093,7 +13093,7 @@
 		(path "/a3f0df11-eace-487e-bc2f-802078513caf")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 6.46 19.11)
 			(end 6.46 -1.33)
@@ -14918,7 +14918,7 @@
 		(path "/bb89e544-44dc-407d-9f09-a6643f62dec0")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
-		(attr through_hole)
+		(attr through_hole exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start 5.12 -1.37)
 			(end 5.12 -1.033)
@@ -16814,19 +16814,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(gr_text "Out"
-		(at 50.8 130.175 0)
-		(layer "F.SilkS")
-		(uuid "91bd18e0-1416-415f-9eef-36b44007de2b")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.5)
-				(bold yes)
-			)
-			(justify left)
 		)
 	)
 	(gr_text "DPM\nDDPM"
