@@ -39,6 +39,16 @@ On Distributed Pulse Modulation (DPM) and Dyadic Descrete Pulse Modulation (DDPM
 
 	MCP23017 is an I2C 16bits IO expander
 	Port A & B are used to control the board
+	Prescaler decoding values :
+	0x00	1
+	0x01	2
+	0x02	8
+	0x03	16
+	0x04	64
+	0x05	256
+	0x06	1024
+	0x07	4096
+
 ![Port A & B](./img/MCP23017_portA_B.jpg)
 
 ## Board configurations (PCB_V2.0)
