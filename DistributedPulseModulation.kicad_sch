@@ -5501,6 +5501,12 @@
 		(uuid "4f508322-92a3-4d74-b30c-4245fcd7adfe")
 	)
 	(junction
+		(at 105.41 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6103177e-3896-4178-8c55-f14361de66c6")
+	)
+	(junction
 		(at 212.09 260.35)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7153,6 +7159,16 @@
 			(type default)
 		)
 		(uuid "c17116bd-ad83-4238-ac6d-81653c17c35b")
+	)
+	(wire
+		(pts
+			(xy 105.41 30.48) (xy 105.41 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1763c9e-f270-4f70-9075-30873c1106b8")
 	)
 	(wire
 		(pts
@@ -27692,7 +27708,7 @@
 		(uuid "76ef1cd8-bd17-477c-9ca6-34e0107b60dd")
 	)
 	(label "Clock_loc"
-		(at 105.41 36.83 0)
+		(at 107.95 36.83 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -29632,7 +29648,7 @@
 			)
 		)
 		(property "Var" "PRESCALER OUI(+!) NON(-!)"
-			(at 93.218 22.86 0)
+			(at 81.026 23.622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33917,6 +33933,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 105.41 25.4 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "96be970a-58c7-4d0c-987d-42de4ea41126")
+		(property "Reference" "#PWR08"
+			(at 105.41 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 105.41 20.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 105.41 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 105.41 25.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9eef99dc-f486-4def-b27e-71c3c703cd75")
+		)
+		(instances
+			(project "DistributedPulseModulation"
+				(path "/92d35ba6-f947-4e80-8ed2-a00ad88d5264"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74LS85")
 		(at 271.78 78.74 0)
 		(unit 1)
@@ -36532,6 +36626,87 @@
 			(project "DistributedPulseModulation"
 				(path "/92d35ba6-f947-4e80-8ed2-a00ad88d5264"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 105.41 27.94 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "eccb9619-ae20-4dc3-88d5-4de0b39b6618")
+		(property "Reference" "R6"
+			(at 107.95 26.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2K"
+			(at 107.95 29.21 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 105.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 105.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 105.41 27.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fe57f0f2-cbfa-4724-a6d1-a45ca5001148")
+		)
+		(pin "2"
+			(uuid "29ac15d7-8b7d-41c6-b81f-c1db24139787")
+		)
+		(instances
+			(project "DistributedPulseModulation"
+				(path "/92d35ba6-f947-4e80-8ed2-a00ad88d5264"
+					(reference "R6")
 					(unit 1)
 				)
 			)
