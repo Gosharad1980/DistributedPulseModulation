@@ -127,6 +127,7 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "03b05abe-e003-4540-8122-aa4c5ad3351e")
 		(at 62.23 85.09 90)
@@ -818,6 +819,7 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0aa0041c-befb-44f0-9434-290da471b7a0")
 		(at 58.42 85.09 90)
@@ -4824,6 +4826,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4b7e1490-65f9-4c61-bce6-f674faf3c7de")
 		(at 66.04 115.57)
@@ -7276,6 +7279,7 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "62787c12-7069-4989-8f8d-1537f05c9a47")
 		(at 77.47 115.57)
@@ -12285,6 +12289,7 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "c15dac05-3b66-491d-abe7-5c3fbf5dfa9c")
 		(at 71.755 115.57)
@@ -13620,6 +13625,7 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d967f152-96bd-4823-be94-b20920de8e27")
 		(at 50.8 119.38 90)
@@ -13681,8 +13687,21 @@
 				)
 			)
 		)
+		(property "Var" "FEATURE FULL,DPM,PWM(+!)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "62aa175f-ba5e-4897-9ad2-69ea20c904b7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
-		(path "/c45584cb-e4f4-4374-82ea-3434d7dee4b2")
+		(path "/a11aa6ee-7430-4f3b-af74-9fc413dcacea")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
 		(units
@@ -14228,6 +14247,7 @@
 		)
 	)
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "dd596081-b60d-4507-8ada-dc70dd9fc402")
 		(at 54.61 85.09 90)
@@ -14282,6 +14302,19 @@
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "8fde7c33-1ddc-4cc4-b627-f1f93a5b31f1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Var" "PRESCALER OUI(+!) NON(-!)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c73521a3-2962-4619-ba6f-ba807905b726")
 			(effects
 				(font
 					(size 1 1)
@@ -15708,6 +15741,7 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "ebf4bb58-5fc7-4c95-bde9-15aac03167e4")
 		(at 60.92 113.03 180)
@@ -15769,7 +15803,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE FULL,DDPM(+!)"
+		(property "Var" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16032,6 +16066,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f9589b94-62b8-46af-b609-3a9559d3911a")
 		(at 76.483606 127.595 90)
@@ -16093,7 +16128,7 @@
 				)
 			)
 		)
-		(property "Var" "FEATURE FULL,DDPM(+!)"
+		(property "Var" ""
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16245,6 +16280,7 @@
 		)
 	)
 	(footprint "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fd8a0879-dfc4-4bc3-bdb3-0aed18ec17a7")
 		(at 101.6 119.38 -90)
@@ -16506,6 +16542,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "fdc580ff-1aea-4a82-b3a6-3c53497d9077")
 		(at 55.88 116.84 90)
