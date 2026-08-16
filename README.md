@@ -73,3 +73,6 @@ On Distributed Pulse Modulation (DPM) and Dyadic Descrete Pulse Modulation (DDPM
 * place the jumpers as describe in the silkscreen schematic (DPM/DDPM)
 
 ![Dyadic_Discret_Pulse_Modulation](./img/Dyadic_Discret_Pulse_Modulation.png)
+
+# Other
+If you're happy by my work ... put a star ;-) 
