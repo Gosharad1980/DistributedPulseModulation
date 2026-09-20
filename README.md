@@ -31,13 +31,6 @@ On Distributed Pulse Modulation (DPM) and Dyadic Descrete Pulse Modulation (DDPM
 	DPM P82C150-like (Distributed Pulse Modulation)
 	DDPM (Dyadic Discrete Pulse Modulation)
 
-<<<<<<< HEAD
-=======
-### Photographies done with the PCB_V1.0 board
-![photo_board](./img/photo_board.jpg)
-![photo_stack](./img/photo_stack.jpg)
-
->>>>>>> Branch_V2.x
 ### MCP23017 Port A & B
 
 	MCP23017 is an I2C 16bits IO expander
@@ -53,11 +46,12 @@ On Distributed Pulse Modulation (DPM) and Dyadic Descrete Pulse Modulation (DDPM
 	0x07	4096
 
 ![Port A & B](./img/MCP23017_portA_B.jpg)
-<<<<<<< HEAD
-=======
 
-## Board configurations (PCB_V2.0)
->>>>>>> Branch_V2.x
+### Overview
+
+![DistributedPulseModulation_overview](./img/DistributedPulseModulation_overview.png)
+
+## Choose your feature and do not populate the useless chips
 
 ### PWM
 
@@ -77,15 +71,6 @@ On Distributed Pulse Modulation (DPM) and Dyadic Descrete Pulse Modulation (DDPM
 
 * do not populate the 74LS85
 * place the jumpers as describe in the silkscreen schematic (DPM/DDPM)
-<<<<<<< HEAD
-![Dyadic_Discret_Pulse_Modulation](./img/Dyadic_Discret_Pulse_Modulation.png)
-
-# Other
-If you're happy by my work ... put a star ;-) 
-=======
 
 ![Dyadic_Discret_Pulse_Modulation](./img/Dyadic_Discret_Pulse_Modulation.png)
 
-# Other
-If you're happy by my work ... put a star ;-) 
->>>>>>> Branch_V2.x
