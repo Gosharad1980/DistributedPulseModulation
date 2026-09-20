@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250114)
+	(version 20260306)
 	(generator "eeschema")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(uuid "03c2837f-87c0-4a4b-b0dc-651bd0c57664")
 	(paper "A4")
 	(lib_symbols
@@ -13,8 +13,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 1.27 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -23,6 +27,8 @@
 			)
 			(property "Value" "Conn_02x07_Odd_Even"
 				(at 1.27 -10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -31,47 +37,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_02x07_Odd_Even_1_1"
@@ -259,114 +275,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_2"
@@ -377,6 +285,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -403,6 +329,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -413,6 +357,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -439,6 +401,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_10"
@@ -457,6 +437,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -5.08 180)
 					(length 3.81)
 					(name "Pin_12"
@@ -467,6 +465,24 @@
 						)
 					)
 					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -503,8 +519,12 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
 				(at 1.27 15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -513,6 +533,8 @@
 			)
 			(property "Value" "Conn_02x11_Odd_Even"
 				(at 1.27 -15.24 0)
+				(show_name no)
+				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -521,47 +543,57 @@
 			)
 			(property "Footprint" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" ""
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "Description" "Generic connector, double row, 02x11, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_keywords" "connector"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(property "ki_fp_filters" "Connector*:*_2x??_*"
 				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
 			(symbol "Conn_02x11_Odd_Even_1_1"
@@ -837,186 +869,6 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
-					(length 3.81)
-					(name "Pin_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 7.62 0)
-					(length 3.81)
-					(name "Pin_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 5.08 0)
-					(length 3.81)
-					(name "Pin_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 2.54 0)
-					(length 3.81)
-					(name "Pin_9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -5.08 0)
-					(length 3.81)
-					(name "Pin_15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -7.62 0)
-					(length 3.81)
-					(name "Pin_17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -10.16 0)
-					(length 3.81)
-					(name "Pin_19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -12.7 0)
-					(length 3.81)
-					(name "Pin_21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 7.62 12.7 180)
 					(length 3.81)
 					(name "Pin_2"
@@ -1027,6 +879,24 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 10.16 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1053,6 +923,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 7.62 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 7.62 180)
 					(length 3.81)
 					(name "Pin_6"
@@ -1063,6 +951,24 @@
 						)
 					)
 					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1089,6 +995,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 2.54 180)
 					(length 3.81)
 					(name "Pin_10"
@@ -1099,6 +1023,24 @@
 						)
 					)
 					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1125,6 +1067,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -2.54 180)
 					(length 3.81)
 					(name "Pin_14"
@@ -1135,6 +1095,24 @@
 						)
 					)
 					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1161,6 +1139,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -7.62 180)
 					(length 3.81)
 					(name "Pin_18"
@@ -1179,6 +1175,24 @@
 					)
 				)
 				(pin passive line
+					(at -5.08 -10.16 0)
+					(length 3.81)
+					(name "Pin_19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
 					(at 7.62 -10.16 180)
 					(length 3.81)
 					(name "Pin_20"
@@ -1189,6 +1203,24 @@
 						)
 					)
 					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -12.7 0)
+					(length 3.81)
+					(name "Pin_21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1218,7 +1250,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Liaison :\n	- PRSNT1# et PRSNT2# par le GNDD (équivalent présence carte PCIx1)\n\nRemplacement :\n	- SMBus -> I2C\n	- JTAG -> SPI dont SC1# et SC2#\n	- WAKE# -> CS3#\n	- CLKREQ -> CLKO\n	- RefClk différentielle PCI -> OSC1 et OSC2 pour external clock MCU\n	- HSOp(0) soit TX0 PCI -> CAN_1_H\n	- HSOn(0) soit TX0 PCI -> CAN_1_L\n	- HSIp(0) soit RXO PCI -> CAN_0_H\n	- HSIn(0) soit RXO PCI -> CAN_0_L\n\nPS : \nL'utilisation d'un RS485 4 fils est possibles en cablant :\n	- HSOp(0) soit TX0 PCI -> DI_A master / RO_A slave\n	- HSOn(0) soit TX0 PCI -> DI_B master / RO_B slave\n	- HSIp(0) soit RXO PCI -> RO_A master / DI_A slave\n	- HSIn(0) soit RXO PCI -> RO_B master / DI_B slave\n\nL'utilisation d'un RS485 2 fils est possibles en cablant :\n	- HSOp(0) soit TX0 PCI -> A master / A slave\n	- HSOn(0) soit TX0 PCI -> B master / B slave\n	- HSIp(0) soit RXO PCI -> NC. ou CAN_0_H\n	- HSIn(0) soit RXO PCI -> NC. ou CAN_0_L\n"
+	(text "Liaison :\n	- PRSNT1# et PRSNT2# par le GNDD (équivalent présence carte PCIx1)\n\nRemplacement :\n	- SMBus -> I2C\n	- JTAG -> SPI dont SC1# et SC2#\n	- WAKE# -> CS3#\n	- CLKREQ -> CLKO\n	- RefClk différentielle PCI -> OSC1 et OSC2 pour external clock MCU\n	- HSOp(0) soit TX0 PCI -> ModBus_A\n	- HSOn(0) soit TX0 PCI -> ModBus_B\n	- HSIp(0) soit RXO PCI -> CAN_0_H\n	- HSIn(0) soit RXO PCI -> CAN_0_L\n\nPS : \nL'utilisation d'un RS485 4 fils est possibles en cablant :\n	- HSOp(0) soit TX0 PCI -> DI_A master / RO_A slave\n	- HSOn(0) soit TX0 PCI -> DI_B master / RO_B slave\n	- HSIp(0) soit RXO PCI -> RO_A master / DI_A slave\n	- HSIn(0) soit RXO PCI -> RO_B master / DI_B slave\n\nL'utilisation d'un RS485 2 fils est possibles en cablant :\n	- HSOp(0) soit TX0 PCI -> A master / A slave\n	- HSOn(0) soit TX0 PCI -> B master / B slave\n	- HSIp(0) soit RXO PCI -> NC. ou CAN_0_H\n	- HSIn(0) soit RXO PCI -> NC. ou CAN_0_L\n"
 		(exclude_from_sim no)
 		(at 148.59 146.05 0)
 		(effects
@@ -4462,43 +4494,115 @@
 			"ZgBYAGMAOQBPAEsAWABKAEYAUQBWAHYAaQA2ADIAZgA1AHgAVQBZAHoAdwBUAGcANgBuAGoAaQB2"
 			"ADQAUgBXAFgASgBaAFYASABYAEQAeQBuAFMALwBNAFkANABSAG0AcwA3AEgAYgBIADgAQwBlAFoA"
 			"MAA4AHMAMQBSAGoATQBjAEwAVQB4ADUAegBEAEEAUQB6AEkAdQB2AFAASAAxAEQAOABjAG0AegBP"
-			"AC8AawB2AHYAOQBQAG8AdQBJADIARQBtAGMAZQB4AGIALwBJAGMAaABmAEcAQQBxAFIAaAA4AGsA"
-			"agBsAE8AMgBBAEkAQQBqAHkAUQBIAFQAMQBzAHIATgBIAGoAKwBUAEwAVgBjADMAWABaAEoAVQBX"
-			"AEUAVwAvADkAcwBuAEMAVwAwADIAQwAyAE8ANgBDAFUAVABaAFgAbgBDAGkALwA4AFUAbABvAGoA"
-			"VQArAHAAKwB6AFcAVQB6AEoAbwBYAE0AcwBPAFYAegBhAFUAcgBYAHAARABqAHgAeAA5AGwAZgBT"
-			"ADIAOABYAGsAZABxAGYAegAvAEoAMQBmAG0ASgAvAEUALwBNAHAATQB4AGMAVQA3AC8AegBoAG4A"
-			"egAvAEsAUQBqAHoASABUAEwAQwAzAGMANgBOAEkAMwBSADMANQB1AFIAdQB0AGYAegBRADMAMQA2"
-			"AGgAYgA5AEkAQwAzAHUATQA1ADkAMgBkADIAMABMAFgAcQBqAEsAVQAzADEANwBaAEwATQBnAGsA"
-			"dQA1AGoAVQAzADEATgB5ADQAawBFADkAagBpADQARABGAGoATwBBAHcAYwBhAEUAcQByAGIAdABF"
-			"AHAAdQBlAFoARwBiAEsARABxAEcAawBtAGUATQBjAEgARgBSADEAVwBhAFIAVQArADQAcABlAGUA"
-			"cwBCAFQAMgBPAHEASwBzAEwAcABGAHQATwB5AG0AMQBkADMAQgB5AEUAYgBvADcAbQBTAG8AYgBI"
-			"AEUANQBNAGMAagBUAEEAQQBXAGwATwBWAG4ALwBwAHIAbABWAHYAbwAzAEUAaAAvAFUAMgAzAFoA"
-			"MABZADEAYgBDAHUAMwBIACsAbgBuAGIAVwAxAHUAWQBjADQAMgB0AHYATAB6AEcAVwBQAFMAWgBv"
-			"ADQASQB4AHoAWgB3AG0AVABuAEQATwB1AGwAWAB0AGIAbQBmAEYARwArAEIAOQBDAEkATAA4AHQA"
-			"YQBBAFEARwBVAEUAUQBCAE8AawBMAHoAagBFAFYAaQBzAGUARgBSAHkANQAyAGMANwBVAFYAcwBQ"
-			"AHIAOQBXAEwAOABuAEQATwBlAFAAOABRADAAZABBAHcAQgBBAGQATgA5AGsARgAyAGMAYQB1AGYA"
-			"dABPAGMAQQBkAGcAZAB0AHoAdwBqAFcAMwBxACsAdAB5AHoAegAzAEwALwBWAE4AUQB6AEEARwBO"
-			"AHcANwBEADAARABYAHYAUgBrADAAVQAwAFYAZgA3AFEAMgAxADIAQgBzAEcAegB2AHgAWABDAGMA"
-			"SABCADAANgBQAFcASgBkAHAASgBIAHAAeQBoAGcAZwBBAG8ASAB2AHEATABJAE4AagBiAFMAVwAw"
-			"AFkATwBPADgAdQBhAC8ASgBaAGkAZgBkAFAAcQBXADQAZgBVAHAAeAArADMAUAA0AGIAUAB1ADUA"
-			"eAAzAHYASABIAEcAOQBwAC8AMwBtAHQANQBOAFoAcgAzAG0AMQAzADkAZABhADUAdABYAFAAZABE"
-			"ADgASABhAEUAOAAzAGoAbgBGAEsAYwBHAEgATgB1AGYAdQBzADQAQgBSAHYAbgB0AGQAOQA3ACsA"
-			"LwBNAFoAawBkACsAegBPADUANgBvAEgAOABKAEEARQBBAFIAQgBFAE8AVABGAG8AZAAwAFYATABX"
-			"AHAAQwAxAHYAKwBjAEMAOABDAGEAOQBjADAASABWAGwAbwBOAHAARABNAFAAZAAzADYAKwBLADcA"
-			"VQBSAGcATwBjADgAOQA3AHQAZgB3AHkANQBlAHYAMwA3ADkAKwBzAFcAdwBJADcAcwArAG4AbQBF"
-			"AHIAYQBsAE0AQgBaAGwAaABZAEcAQQBQAGMARAB0AG0AZgAyAGMAMQBRAEYAbwBzAE8AWABXADgA"
-			"KwAvAHQAZQB2AEoAaABrAEQAUQBQAFgAMQByAHoAYQBHAFAAeQBkAEoAYwBxAEUAMABGAHgAdwBD"
-			"AEEAaAB4AGIATgBzAGUAZQA2AEwAdwBvAGEANwA3ADUAaAA5AGsATwBjAEcAdgBqAHoAbwBJACsA"
-			"agBTADcAZAArAGUARgByAGsAZQAzAEwAeABsAFoAdgAzAG4AOQBjAEIAdgA3ACsAaAA5AHcATwBS"
-			"AGUAVwB4AEoAMAA1ADAAYwA2AEsAbgBEAEEATgBCAEUAQQBSAEIAawBCAGUASwBWAGwAUABrAHgA"
-			"RwArACsAaQBRAFEAQQB5AFEAZgBmAEIAQQArADUARwByAEkAcQBQAE8AUgBVAEsAUQBCAFkATABO"
-			"AHEAOQBlAC8AVQBFAE8AegA0AFQAQQBJAEQASgBOADMARwBaACsAYwBsAHYAcAB6AGQATgBhAE8A"
-			"MgBuAHQAcAB3ADUAegB4AG0AZwA5AE4AVAArAGMARgBWAFgAWQA3AFYAaQA4AHUAMABtAGIALwBw"
-			"AHQAbgBUAHMAQQBRAE4ASwA1ADgASwBvAEIAaQBuADMAdwBwAGMAcwBLAGUAKwA3ADAATgBBAHAA"
-			"KwBqAHkAZwBFAHkAWgBpADMAcgBMAHIAZQA2AC8ALwBHADUAZwA1ADcAcgBRAEoAbQBTAGkAQQA5"
-			"AEkAdQBMAEoASwBlADgASQBnAHIAeABRAHEASQBZAFMANgBkADMATABJAFkAZgB2AFYAYQBIAGIA"
-			"eQBDAEsARABpADYAeABJAHUAMwBSADgAMgA0AHAAUAB6AGgAZQBRADIAZwA1AGwAeQBHAGoATQBP"
-			"AA=="
+			"AHQAVQA1AE0AVQBnAEUAWgBaAG0ANQBHAFQAawAxAGkAdQBhAEcAdwBzAHUAWgBVAHUAagBaAEIA"
+			"SwByADYAYwBrAG4ANABtADUAOQBzAHUATgArAHcAWABXAC8AaAArAC8ANQBPADMATgBZADkASgBJ"
+			"AGUAVgA2AFcATgBDAHEAdgByAEUAeQBqAHkAaQAvAEkAdgBWAHQAWQBWAFUATQBNACsAWQBlAEwA"
+			"SQBFAE0AVABSAGoAMwBuAEgANwBMADcAcgBuAGoALwA0AEoAMwByAFgAMgBmAGcAYgBqAGEATQB0"
+			"AG8ARQB2AFoAdwA5AEkAKwAwAEQANgBTAHoAWgB6AEUATQA3AGkAdABPAGQAZgB3AHAAUwBFAEcA"
+			"bABmAFAAdABCAFYAZgBEAG0AWgA3AC8ANQBvADIAYgBoAGcAcwAyAEsASgAxAGsAWgBHAFIALwB2"
+			"ADcAKwAyAG8ANQBpAEcAQgBqAHMASgA0AHEAUwBsADYAWABlAFAAUABQAGYAMAAzAGMAcQA2ADMA"
+			"agBqAEYAeQAyAGYATwBkAEgAWgB1AEkAcwBNAE8AVwBFADUAVQBGAFMAVABRAGwANQBjAEQAbgBv"
+			"AHMAZQBjAFMAMQAzAEcAaABwAFgAWgBXAFIAdwBiAFMASgBsAHQATwBkAGQARABoADAAcQBFAHIA"
+			"TAArAHYAcABvAFEAVAAwAEEAMAAwAGgAdgBSAHEARAA5AFYARgB1ADIAbwBxAEEANgBqADgAMgAx"
+			"ADEAVwBPAHgAMQBEAFYALwAvAEMAZgBwAGMAZwBNAEEAQQBPAGcASQB4AG8AOAAzAGQANgBrAHYA"
+			"TwAzAGUAegB2AEwAVABOADUAQQB1AGMAdwA3AFQAegBzAEoAbwB6AFEAbQBSAHAAeQB1AEYAZwBR"
+			"AE4AVgBYAEgAegB1AGEAYwBhADIAdwBTAFEAVgBNAHoAOQBrAGUAcQA5AHkANQBOAEEAQgBLADAA"
+			"WgBRAFEASQB6AHMAUwBYAFYAWQBKAEEATQBDAFoATgBOAGQAdABrAFoAMwA2AHgASwA3AEUAbABw"
+			"AEUAWgBQAEsAKwB4AE4AbwBzAEMAOQBQAFMASAAyAG0AMwAxAGoAQwBZAG4AbABDADEASQBTAEgA"
+			"aQAwAHEAWgBMAGUATwBiAFAAMQBRAGYATgBOADkASABBAFQATQA3AHUANQBQAG0ATwA4AGQASABC"
+			"AGwAZABlAGIASgBhADMAZQBpADYAaABWAHQAYgBqAG0ASQA2ACsAbQBiACsAWQAwAFkANABXAE0A"
+			"aQBNAG0AYgBUAGEAUQBDAGsAdQBpAHoAOAA5AE4ALwBIAFcAKwA2AC8AeAA1AFoAWQB1AHIAMwB1"
+			"AEwASQBOAGoAYgBTAFcAMABGAEwAQQBaAFEAQgBsAFoATwBZAC8AbABHAFIAcwAvAFYAbwBtADEA"
+			"RwBNAGYARwBkADEAcQBrADkAbABxAGQAUwBrAHMARAB3ADgASQAxAHkATQAvAEcAcABIADEAdABI"
+			"AGQATgBzADcAUABRAHcAWgB4AE0AaABsADgAQQB4AHcAbQBsAEcAMwBEAE0AbQBaAFUAMABZAGgA"
+			"bgBQAE4ASABiADIAZABiAGMAMwA0AHIAUAA2AEcAZwBjAEcAMwA5ADUAdgArAG4ARQBEAGoASgBM"
+			"AFoAawBQAGwAYgBqAGgAUwBBAFAAQwA4AHYATQB6AEIAegBwAFAAagB4AGEAUABNAGEATQBHAGUA"
+			"awB1AEkASQArAGIAbwB1AHYAWABSADcAbwBMAHkARwBOAGwANgB0AFMAcABJADkAMgBGAFgAbgB6"
+			"AHoAegBVAGoAMwBZAE4AVAB5ADgAUQBHAFIAcQBLAFMAMAAxAEEAQgAzAGUAeABwAGgAZgBEADQA"
+			"LwBLAEMAaABvAHAASAB1AEIAagBHADQAYQBqAFUAYQB0ADcAbgBIAC8AbwBvAEsAQwBnAHUARgBv"
+			"AGkASABnADAAZgA5AFcATwBvAEUAbwBGAFMAcABCAEEAaABoAGoANgBLAFIAdQBNAHIASwB3AHMA"
+			"TgBGAEMARABrAFoAVwBWAE4AZABKAGQAUQBCAEEARQBlAFkAUQBNADAAOQA4AE8AbABIAGkARQBJ"
+			"AEEAaQBDAEkAQQBpAEMASQBEADIAZwBFAEIAbABCAEUAQQBSAEIARQBBAFIAQgBlAGsARABMADkA"
+			"UgBBAEUAUQBaAEEAaABJAEIAUwBPAGQAQQA5AEcATABZAEUAQQBPAEIAeQBPAGkAWQBuAEoAUwBI"
+			"AGQAawAyAEgARwA1ADMASgBIAHUAQQBvAEkATQBsAGcARgBEAFoASABWAGgAVwBzAEwAUwBwAFYA"
+			"OQBuAFYAWQBIAEgAWgA3AGMASwBFADUAdwA3AFQAegBUAGsAZgA3AFYAawA2AFkAZgBTAGkANAAw"
+			"AGEAQQBMAFoAVAB4AEsAbwA5AGUAOQBZAEYAbQB4AHEAdQBYAHcAaQBDAEkATQBqAEQAbQB6AEMA"
+			"aABjAHEAUwA3AE0ARgByAHgAZQBEAHcAYwBOADcASwAxAHQAUgAzAHAAagBnAHcANwBnAGsAQQBU"
+			"AGMAOABpAG8AWQBhAEIAdgAxAGcAYgBwADAAdQBEAG8AcgBVAFcAYQBqAHEAZgBkAFYAaQBJAFcA"
+			"SgBnAFMASAByAEMALwBxAGUASwBZAHAAegBWAGcAZgBFAG0AeAA2AHIAVABEAEIAMAB6AEEAOQBl"
+			"AP//////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"/0UAQQA0AE8ATABoAEQARABHAHAAawBIAFQAdQBYAEUAbgBRAFAAQgBPAFQAMQAvADkAMwAvAFgA"
+			"VgA0AFkAZwAyADMAeAB5AHkAWAB2AEQALwArADUARgBjAHgASgAvACsAOABOAGEAKwBuAGsAUgB1"
+			"AHUAaABTAGMAQgBBAEQAaQA3AHUAUABSAHoAegBOAG8AMwA5AHMAVAB0AHoAKwBkADcAZgB4ADkA"
+			"MgAvAGkAWQBFAE4AQwArADcATgB1AGEAWgBsAGwAUwB6AEMAcABnAHAATwBmAE8ARAByAEIAQwBn"
+			"AHMAMwBrAFIAVgB2AGEATwBBAEcARwBkADcAQwAyADQASgBRAE8AUQBtAEwAWABKAGcANQA4AHQA"
+			"RABBAFIANQBRAGUARwA2AEYAZwA1AHUAagB6AGMAVgBzAHEAdABoADgAYwA2AHYAZgBtADMARAA2"
+			"AC8ASQBJAGkAbABKAFUARgB6AHgATQBLADgATAB0AFgAcgBVAHoANQByAFYATAA5AEQAQgBkAGEA"
+			"eAAvAFAAUwBoAG8ATgBnAE4ASQBvAG0ANgBwAEwAaQArAHMAeABsAGcANQBOAFgAVgBDAGsAMABM"
+			"AE8AegBsAG8AagBZADYAbwBiAEsALwBMAHkAYwBuAE8ASgBHAGoAbwA2AFIAaABhADMARQBSAE0A"
+			"UwBsAHEANgBzAHoANwAwAHMATAA2AHQAUQBDAEIANAA5AFIAWgByAHkANgA0AHYAVABFAHQARgBL"
+			"AFcAbgByAG0AdABvADUAVQArAFgAVgBWAFgAVwBWAEoATQBDAEMAUQBDAHMAaQBRAHIAUQAxAGIA"
+			"TgBNAEgAZAB4AHMAVwAwADUASQA2AFYAUgAxAEoAWABuAHkANwBLAEsAbQBuAFEAdABoAFUAcQBL"
+			"AGcAcQBFADAAdAA2AEIAYgBkAEQAMQBqAHUAOAA3ADMAWQBMAG8AMgBoAHIAbwBBAEEARQAvAG0A"
+			"TwB6AFMAKwB0AGMAMwBMAGMAKwAzAFAAZgAzAG4ALwBRAHIAVABYAEoASQBtAEUAZgBUAHQAMgA5"
+			"ADYAbABhAGoANABQAE8AegBqAHEAUABIAHoAagBHAEYASABqAE0AOQBuAEwAYQBFADMAYgB5AGYA"
+			"MwBuAEIAWAA5AHMAYQBEAG8AVwBuAFIATQArAFUAeABpADUAUgBIAHoAMgBqAE4AbQBhAEEAaAB5"
+			"ADIATgBqAFcAUABHAEgAawB4AEcAYQA0AFcAVQBSAHYATwBZAFQAQwA4AC8AcABEAGwANgBUAGUA"
+			"TgBqAHkAUgBBAHkAQQBTAGkAcQBxAFkATABNAHkAUwBhAEYAYgByAGgAWgBUAFoAZQBKAFAAcQBV"
+			"AP//////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"////////////////////////////////////////////////////////////////////////////"
+			"//R+d1D6fwAAUG53UPp/AADgbndQ+n8AAHBvd1D6fwAAAHB3UPp/AABcbndQ+n8AAOxud1D6fwAA"
+			"fG93UPp/AAAMcHdQ+n8AAIBud1D6fwAAEG93UPp/AACgb3dQ+n8AADBwd1D6fwAAjG53UPp/AAAc"
+			"b3dQ+n8AAKxvd1D6fwAAPHB3UPp/AAAgfXpQ+n8AAKB4d1D6fwAAxHh3UPp/AABcendQ+n8AAIB6"
+			"d1D6fwAAUHp3UPp/AAB0endQ+n8AANDPelD6fwAAYLF6UPp/AADgZnpQ+n8AADDUelD6fwAAcNR6"
+			"UPp/AADA1HpQ+n8AAGC1elD6fwAAoLV6UPp/AADwtXpQ+n8AAMAmelD6fwAAACd6UPp/AADARnpQ"
+			"+n8AAKB0elD6fwAAEHl6UPp/AABglHpQ+n8AAECUelD6fwAAoEl6UPp/AADAk3pQ+n8AAKCTelD6"
+			"fwAAIJF6UPp/AABgjnpQ+n8AACR/d1D6fwAAMH93UPp/AABUcHdQ+n8AAGBwd1D6fwAAMIp6UPp/"
+			"AACUhHdQ+n8AABAielD6fwAAYCJ6UPp/AADgIXpQ+n8AACBEelD6fwAAUDB6UPp/AADQ1XpQ+n8A"
+			"AOAaelD6fwAAwG96UPp/AACQSHpQ+n8AAOCDelD6fwAAMIR6UPp/AACAhHpQ+n8AACCFelD6fwAA"
+			"YIV6UPp/AACghXpQ+n8AAOCFelD6fwAAYIZ6UPp/AABgs3pQ+n8AAKCCelD6fwAAQIN6UPp/AAAQ"
+			"hnpQ+n8AAJCDelD6fwAA0IR6UPp/AADwgnpQ+n8AAACHelD6fwAAoId6UPp/AABAiHpQ+n8AALCG"
+			"elD6fwAAoKh6UPp/AACAqHpQ+n8AABCpelD6fwAAcKl6UPp/AAAwqXpQ+n8AAOCpelD6fwAAgKx6"
+			"UPp/AAAArHpQ+n8AAGCselD6fwAA0Kt6UPp/AACwq3pQ+n8AACCqelD6fwAAIKt6UPp/AAAAqnpQ"
+			"+n8AANCselD6fwAA4Kp6UPp/AACgrHpQ+n8AAKCpelD6fwAAEK16UPp/AAAgrHpQ+n8AAICrelD6"
+			"fwAAYKp6UPp/AABQqXpQ+n8AAMCoelD6fwAAQKt6UPp/AACwqnpQ+n8AAICqelD6fwAA8Kh6UPp/"
+			"AABAp3pQ+n8AANAjelD6fwAAkBx6UPp/AADgjnpQ+n8AAKBZelD6fwAA8Fl6UPp/AAAAPnpQ+n8A"
+			"AICUelD6fwAAkMZ6UPp/AABwRXdQ+n8AAFhFd1D6fwAAQEV3UPp/AACURXdQ+n8AAHxFd1D6fwAA"
+			"ZEV3UPp/AABMRXdQ+n8AAKBFd1D6fwAAiEV3UPp/AAB8OXdQ+n8AAPg4d1D6fwAATHt3UPp/AABk"
+			"ew=="
 		)
 	)
 	(hierarchical_label "I2C_SDA"
@@ -4901,13 +5005,17 @@
 		(lib_id "Connector_Generic:Conn_02x07_Odd_Even")
 		(at 90.17 111.76 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "39f22e73-99df-46a2-8852-f7a1b9cc7601")
 		(property "Reference" "PCIe_CAN_1"
 			(at 91.44 95.25 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,6 +5024,8 @@
 		)
 		(property "Value" "Conn_02x07_Odd_Even"
 			(at 91.44 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4924,29 +5034,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x07_P2.54mm_Vertical"
 			(at 90.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 90.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 90.17 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -4992,7 +5108,7 @@
 			(uuid "b9a8ca82-1d68-4910-9e03-202eb90526a8")
 		)
 		(instances
-			(project "ATTiny1616DevBoard"
+			(project "DistributedPulseModulation"
 				(path "/92d35ba6-f947-4e80-8ed2-a00ad88d5264/b8008be6-a928-47ca-87bc-1bacc7896b47"
 					(reference "PCIe_CAN_1")
 					(unit 1)
@@ -5010,13 +5126,17 @@
 		(lib_id "Connector_Generic:Conn_02x11_Odd_Even")
 		(at 90.17 71.12 0)
 		(unit 1)
+		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
+		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed03aaf3-45bc-4826-90a1-3476c087c744")
 		(property "Reference" "PCIe_SPI_1"
 			(at 91.44 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5025,6 +5145,8 @@
 		)
 		(property "Value" "Conn_02x11_Odd_Even"
 			(at 91.44 52.07 0)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5033,29 +5155,35 @@
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x11_P2.54mm_Vertical"
 			(at 90.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 90.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x11, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 90.17 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(pin "1"
@@ -5125,7 +5253,7 @@
 			(uuid "bd3600be-c73d-4e6f-b572-b46448b05f28")
 		)
 		(instances
-			(project "ATTiny1616DevBoard"
+			(project "DistributedPulseModulation"
 				(path "/92d35ba6-f947-4e80-8ed2-a00ad88d5264/b8008be6-a928-47ca-87bc-1bacc7896b47"
 					(reference "PCIe_SPI_1")
 					(unit 1)
