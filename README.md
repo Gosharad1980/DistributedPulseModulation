@@ -47,9 +47,6 @@ On Distributed Pulse Modulation (DPM) and Dyadic Descrete Pulse Modulation (DDPM
 
 ![Port A & B](./img/MCP23017_portA_B.jpg)
 
-### Overview
-
-![DistributedPulseModulation_overview](./img/DistributedPulseModulation_overview.png)
 
 ## Choose your feature and do not populate the useless chips
 

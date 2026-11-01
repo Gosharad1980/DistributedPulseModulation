@@ -33825,6 +33825,16 @@
 				)
 			)
 		)
+		(property "Var" "FEATURE DDPM(+m1-m2+m3) FULL,PWM,DPM(-m1+m2+m3)"
+			(at 60.706 201.168 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "003b3d00-caed-4c3c-b55f-c62c5025c59f")
 		)

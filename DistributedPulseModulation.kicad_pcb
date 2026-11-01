@@ -92,7 +92,6 @@
 		)
 		(capping no)
 		(filling no)
-		(zone_defaults)
 		(aux_axis_origin 132.08 129.54)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
@@ -11311,7 +11310,7 @@
 			)
 		)
 		(property ki_fp_filters "DIP*W7.62mm* SOIC*3.9x9.9mm*P1.27mm* TSSOP*4.4x5mm*P0.65mm*")
-		(path "/f89ef8da-9e28-4cbd-8ff7-8f90a4297a02")
+		(path "/b6d031f7-969c-4c4b-9466-62c5ef8bb8ef")
 		(sheetname "/")
 		(sheetfile "DistributedPulseModulation.kicad_sch")
 		(units
@@ -15218,6 +15217,19 @@
 				)
 			)
 		)
+		(property "Var" "FEATURE DDPM(+m1-m2+m3) FULL,PWM,DPM(-m1+m2+m3)"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db7bcdb3-d895-4485-870b-f2dd2ad3f254")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Jumper* TestPoint*3Pads* TestPoint*Bridge*")
 		(path "/a45bbb04-b8f3-45b8-abcb-0eee1fd444d7")
 		(sheetname "/")
@@ -15425,6 +15437,29 @@
 			(uuid "5fc6d2a5-5437-4ace-80ee-24c7c22c15ba")
 		)
 		(embedded_fonts no)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 3)
+			)
+			(scale
+				(xyz 1 1 0.6)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
+		(model "${KICAD10_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x02_P2.54mm_Vertical.step"
+			(offset
+				(xyz 0 -2.54 3)
+			)
+			(scale
+				(xyz 1 1 0.6)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 		(model "${KIPRJMOD}/packages3D/PinHeader_1x03_P2.54mm_Vertical.wrl"
 			(offset
 				(xyz 0 0 0)
